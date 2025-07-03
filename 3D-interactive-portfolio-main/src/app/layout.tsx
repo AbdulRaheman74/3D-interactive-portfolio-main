@@ -20,20 +20,20 @@ export const metadata: Metadata = {
   description: config.description.long,
   keywords: config.keywords,
   authors: [{ name: config.author }],
-  openGraph: {
-    title: config.title,
-    description: config.description.short,
-    url: config.site,
-    images: [
-      {
-        url: config.ogImg,
-        width: 800,
-        height: 600,
-        alt: "Portfolio preview",
-      },
-    ],
-    type: "website",
-  },
+  // openGraph: {
+  //   title: config.title,
+  //   description: config.description.short,
+  //   url: config.site,
+  //   images: [
+  //     {
+  //       url: config.ogImg,
+  //       width: 800,
+  //       height: 600,
+  //       alt: "Portfolio preview",
+  //     },
+  //   ],
+  //   type: "website",
+  // },
   // twitter: {
   //   card: "summary_large_image",
   //   title: config.title,
